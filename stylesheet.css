@@ -1,0 +1,124 @@
+/* Design Credits: Jon Barron and Abhishek Kar and Saurabh Gupta*/
+  a {
+  color: #1772d0;
+  text-decoration:none;
+  }
+  a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+  }
+  html {
+    display: table;
+    margin: auto;
+  }
+  body,td,th {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    min-width: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  heading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 1000
+  }
+  strong {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 800
+  }
+  strongred {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    color: 'red' ;
+    font-size: 16px
+  }
+  sectionheading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    align: center;
+    margin: auto;
+  }
+  pageheading {
+    font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 400
+  }
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #navbar {
+    overflow: hidden;
+    background-color: rgb(99, 97, 97);
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: rgb(175, 175, 175);
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #3e9dc9;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 80%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+.people{
+  width: 90%;
+  max-width: 840px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap; 
+  /*justify-content: space-between;*/
+}
+.people p{
+  text-align: center;
+
+}
+
+.person{
+  width: 150px;
+  text-align: center;
+}
+
+.person img{
+  display: inline-block;
+  width: 130px;
+  margin: 5px auto;
+  height: auto;
+  border-radius: 50%;
+}
